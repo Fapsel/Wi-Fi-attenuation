@@ -1,0 +1,38 @@
+table td{
+  border: 1px solid black;
+  width: 60px;
+  text-align: center;
+}
+#inputFields {
+  display: flex;
+  margin: 50px;
+  justify-content: space-evenly;
+}
+#matrixCreation, #router{
+  width: fit-content;
+}
+input{
+  width: 50px;
+  margin: 0 20px 0 5px;
+}
+#recalc-button{
+  width: fit-content;
+}
+div#matrix {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.wall{
+  background-color: coral;
+}
+.router{
+  background-color: cadetblue;
+} 
+ .attenuation{
+  background-color: rgba(170, 201, 34, 0.616);
+}
+.row {
+  display: flex;
+  margin: 20px;
+}

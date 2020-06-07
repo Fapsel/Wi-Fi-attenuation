@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Diploma project</title>
+  <link href="./index.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="inputFields">
+    <div id="matrixCreation">
+      <div class="row">
+        <label>Width</label>
+        <input type="number" id="width-input" value="12">
+        <label>Height</label>
+        <input type="number" id="height-input" value="12">
+      </div>
+      <div class="row">
+        <label>Router X</label>
+        <input type="number" id="x-input" value="6">
+        <label>Router Y</label>
+        <input type="number" id="y-input" value="6">
+      </div>
+      <div class="row">
+        <label>Wall start X</label>
+        <input type="number" id="wall-start-x-input" value="8">
+        <label>Wall start Y</label>
+        <input type="number" id="wall-start-y-input" value="2">
+        <label>Wall end X</label>
+        <input type="number" id="wall-end-x-input" value="8">
+        <label>Wall end Y</label>
+        <input type="number" id="wall-end-y-input" value="6">
+      </div>
+      <input type="button" value="recalculate" id="recalc-button">
+    </div>
+  </div>
+  <div id="matrix"></div>
+  <script src="wifi2.js"></script>
+</body>
+
+</html>
